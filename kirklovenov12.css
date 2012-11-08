@@ -135,6 +135,16 @@ a {
     margin-top: 30px;
 }
 
+.caption550 {
+    font-family: "chaparral-pro-1", "chaparral-pro-2", serif;
+    width: 600px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #888;
+    font-style: italic;
+    margin-top: 30px;
+}
+
 .caption-at-top {
     font-family: "chaparral-pro-1", "chaparral-pro-2", serif;
     width: 475px;
