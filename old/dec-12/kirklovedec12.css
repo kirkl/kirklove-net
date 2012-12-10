@@ -216,5 +216,13 @@ a {
     color: #5E9733;
     font-style: italic;}
 
+.no-color-reg-list li {
+    font-family: "chaparral-pro-1", "chaparral-pro-2", serif;
+    width: 475px;
+    font-size: 18px;
+    line-height: 33px;
+    color: #555;
+}
+
 
 
