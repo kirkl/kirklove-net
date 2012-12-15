@@ -56,6 +56,13 @@ h3 {
     margin-top: 60px;
 }
 
+.subhead {
+    font-family: "adelle-1", "adelle-2", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #5E9733;
+}
+
 
 p {
     font-family: "chaparral-pro-1", "chaparral-pro-2", serif;
