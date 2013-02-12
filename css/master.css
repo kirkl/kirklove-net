@@ -1,0 +1,463 @@
+/****************************
+FONT NAMES
+*****************************/
+
+/*FONT FAMILIES:
+font-family:'AmericanTypwrterITCW01- 731025';
+font-family:'AmericanTypwrterITCW01- 731031';
+font-family:'AmericanTypwrterITCW01- 731010';
+font-family:'Proxima N W01 Thin Reg';
+font-family:'Proxima N W01 Light';
+font-family:'Proxima N W01 Reg';
+font-family:'Proxima N W01 Xbold';
+font-family:'Proxima N W01 Smbd';
+font-family:'Proxima N W01 Bold';
+font-family:'Proxima N W01 Black';
+*/
+
+/****************************
+PEGBOARD
+*****************************/
+
+/*
+    Fonts
+*/
+h1 {
+    font-family: 'Proxima N W01 Black', sans-serif;
+}
+h2, .peggboard > aside p {
+    font-family: 'Proxima N W01 Reg', sans-serif;
+}
+.peggboard > header nav a, .peggboard > aside a, .peggboard > footer a {
+    font-family: 'Proxima N W01 Smbd', sans-serif;
+}
+.peggboard > aside h3 {
+    font-family: 'Proxima N W01 Bold', sans-serif;
+}
+time {
+    font-family: 'Proxima N W01 Xbold', sans-serif;
+}
+
+body {
+	background: #fef1dc;
+}
+
+.peggboard {
+	width:1360px;
+	margin:12px auto;
+	background: url(../img/board-x.jpg) repeat-x;
+    background-color: #FDC56E;
+/*  background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#BB7C41), to(#FDC56E));
+    background:-webkit-linear-gradient(top, #FDC56E, #BB7C41);
+    background:-moz-linear-gradient(top, #FDC56E, #BB7C41);
+    background:-ms-linear-gradient(top, #FDC56E, #BB7C41);
+    background:-o-linear-gradient(top, #FDC56E, #BB7C41);*/
+    border:1px solid #dda65e;
+	border-radius:8px;
+	-webkit-box-shadow:5px 5px 6px -2px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:5px 5px 6px -2px rgba(0, 0, 0, 0.2);
+	box-shadow:5px 5px 6px -2px rgba(0, 0, 0, 0.2);
+    position:relative;
+    padding:20px 0 20px 22px;
+    z-index:0;
+}
+
+.peggboard::after {
+    content:'';
+    background: transparent url(../img/ribbon.png) no-repeat 0 0;
+    height:123px;
+    width:51px;
+    position:absolute;
+    top:-2px;
+    right:120px;
+}
+
+/****************************
+HEADER
+*****************************/
+
+header, .content, footer {
+    width:1077px;
+    overflow:hidden;
+	clear:both;
+}
+
+h1 {
+    margin:0;
+    float:left;
+}
+
+header > a {
+	display:block;
+	float:left;
+    margin:0 15px 1px 0;
+}
+
+header > a:active {
+    margin:1px 14px 0 1px;
+}
+
+h1 {
+	float:left;
+	margin:0;
+}
+
+h1 a {
+    display:block;
+    width:118px;
+    height:24px;
+    background:transparent url(../img/peggsite-type-logo.png) no-repeat;
+    margin:7px 5px 0 0;
+    text-decoration: none;
+	text-indent:-999px;
+}
+
+h1 a:active {
+    margin:8px 4px 0 1px;
+}
+
+h2 {
+    font-size:17px;
+    font-weight:normal;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    color:#5f3817;
+    margin:11px 0 0 10px;
+    float:left;
+}
+
+.peggboard > header ul {
+    margin:0;
+    padding:0;
+    float:right;
+    width:370px
+}
+
+.peggboard > header li {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+.peggboard > header nav a {
+    border:1px solid #BE9352;
+    width:100px;
+    border-radius:6px;
+    height:35px;
+    float:left;
+    margin-left:20px;
+    background-color:rgba(196, 156, 112, 0.3);
+    opacity:.95;
+    font-size:15px;
+    text-transform:uppercase;
+    color:#5f3817;
+    text-decoration:none;
+    letter-spacing:1px;
+    text-align:center;
+    line-height:39px;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+}
+
+.peggboard > header nav a:hover {
+    color:#F2EBE1;
+    border:1px solid #F26521;
+    opacity:.95;
+    background-color:#F26521;
+}
+
+
+/****************************
+CONTENT
+*****************************/
+
+.content {
+    float:left;
+	height:710px;
+	background:transparent url(../img/board-hole.png) repeat 3px 1px;
+    position:relative;
+}
+
+article {
+    display:block;
+    position:absolute;
+    z-index:10;
+    border:1px solid #d6934e;
+    -webkit-box-shadow:0 10px 12px -10px rgba(95, 56, 23, 0.5);
+    -moz-box-shadow:0 10px 12px -10px rgba(95, 56, 23, 0.5);
+    box-shadow:0 10px 12px -10px rgba(95, 56, 23, 0.5);
+}
+
+article > div {
+    border:10px solid #fdf0db;
+    background:#FFF;
+	line-height:0px;
+}
+
+/****************************
+QUOTE POST
+*****************************/
+
+
+article blockquote {
+    font-family:'AmericanTypwrterITCW01- 731031';
+    font-size:11px;
+	width:175px; /* We probably need a few different specific size quotes (small/med/big). Or we could do another grid solution like pegg-w6 (width) / pegg-h4 (height) */
+    line-height:16px;
+    color:#333;
+	margin:0;
+	padding:20px 15px 5px 15px;
+}
+
+article blockquote p {
+	margin-top:0;
+}
+
+article blockquote footer {
+    font-family:Helvetica, sans-serif;
+    font-size:11px;
+    font-weight:bold;
+    line-height:16px;
+    color:#333;
+    width:175px;
+}
+
+cite {
+    font-style: normal;
+}
+
+/*article blockquote footer a {
+    color:#000;
+	text-decoration:none;
+	font-style:normal;
+}
+
+article blockquote footer a:hover {
+	text-decoration:underline;
+}*/
+
+article blockquote:before, article blockquote:after {
+    font-family:Helvetica, sans-serif;
+	display:block;
+    font-size:40px;
+    font-weight:bold;
+    color:#EE642D;
+	content: '\201c';
+}
+
+article blockquote:after {
+	content: '\201d';
+	text-align: right;
+}
+
+/****************************
+TEXT POST
+*****************************/
+
+.text-post {
+    width: 480px;
+    padding: 25px 44px 20px 42px;
+}
+
+.text-headline {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #5F3817;
+    margin: 20px 0 33px 0;
+    display: block;
+}
+
+.text-post > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #555;
+}
+
+.text-post > a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+    padding: 25px 0 0 0;
+    display: block;
+}
+
+
+/*
+    Each step is 36px difference (board-hole.png is 36px wide)
+
+    var pegCountX = 30, codz = '';
+    for (var i = 0; i<pegCountX; i++){
+        codz += '.pegg-x'+(i+1)+' {left:'+(15 + 36 * i)+'px;}<br>';
+    }
+    document.write(codz);
+*/
+.pegg-x1 {left:15px;}
+.pegg-x2 {left:51px;}
+.pegg-x3 {left:87px;}
+.pegg-x4 {left:123px;}
+.pegg-x5 {left:159px;}
+.pegg-x6 {left:195px;}
+.pegg-x7 {left:231px;}
+.pegg-x8 {left:267px;}
+.pegg-x9 {left:303px;}
+.pegg-x10 {left:339px;}
+.pegg-x11 {left:375px;}
+.pegg-x12 {left:411px;}
+.pegg-x13 {left:447px;}
+.pegg-x14 {left:483px;}
+.pegg-x15 {left:519px;}
+.pegg-x16 {left:555px;}
+.pegg-x17 {left:591px;}
+.pegg-x18 {left:627px;}
+.pegg-x19 {left:663px;}
+.pegg-x20 {left:699px;}
+.pegg-x21 {left:735px;}
+.pegg-x22 {left:771px;}
+.pegg-x23 {left:807px;}
+.pegg-x24 {left:843px;}
+.pegg-x25 {left:879px;}
+.pegg-x26 {left:915px;}
+.pegg-x27 {left:951px;}
+.pegg-x28 {left:987px;}
+.pegg-x29 {left:1023px;}
+.pegg-x30 {left:1059px;}
+
+/*
+    Each step is 36px difference (board-hole.png is 36px high)
+
+    var pegCountY = 20, codz = '';
+    for (var i = 0; i<pegCountY; i++){
+        codz += '.pegg-y'+(i+1)+' {top:'+(14 + 36 * i)+'px;}<br>';
+    }
+    document.write(codz);
+*/
+.pegg-y1 {top:14px;}
+.pegg-y2 {top:50px;}
+.pegg-y3 {top:86px;}
+.pegg-y4 {top:122px;}
+.pegg-y5 {top:158px;}
+.pegg-y6 {top:194px;}
+.pegg-y7 {top:230px;}
+.pegg-y8 {top:266px;}
+.pegg-y9 {top:302px;}
+.pegg-y10 {top:338px;}
+.pegg-y11 {top:374px;}
+.pegg-y12 {top:410px;}
+.pegg-y13 {top:446px;}
+.pegg-y14 {top:482px;}
+.pegg-y15 {top:518px;}
+.pegg-y16 {top:554px;}
+.pegg-y17 {top:590px;}
+.pegg-y18 {top:626px;}
+.pegg-y19 {top:662px;}
+.pegg-y20 {top:698px;}
+
+
+/****************************
+ASIDE
+*****************************/
+
+
+.peggboard > aside {
+    float:left;
+    width:198px;
+    padding:60px 40px 0 40px;
+}
+
+.peggboard > aside h3 {
+    font-size:20px;
+    color:#5f3817;
+    opacity:.9;
+    letter-spacing:-1px;
+}
+
+.peggboard > aside p {
+    font-size:15px;
+    color:#5f3817;
+    line-height:24px;
+    opacity:.9;
+}
+
+.peggboard > aside a {
+    display:block;
+    margin-top:25px;
+    width:195px;
+    height:40px;
+    border-radius:4px;
+    text-align:center;
+    background-color:rgba(85, 57, 15, 0.4);
+    text-decoration:none;
+    line-height:45px;
+    font-size:14px;
+    color:#fdf0db;
+    opacity:.9;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    border:1px solid #865f25;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    opacity:.9;
+}
+
+.peggboard > aside a:hover {
+    color:#F2EBE1;
+    border:1px solid#F26521;
+    background-color:#F26521;
+}
+
+/****************************
+FOOTER
+*****************************/
+
+.peggboard > footer {
+    clear:both;
+    padding-top:25px;
+}
+
+time {
+    float:left;
+    font-size:18px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    color:#fdf0db;
+    opacity:.9;
+    margin-left:15px;
+}
+
+time span {
+    color:#5f3817;
+    opacity:.9;
+    padding-left:10px;
+}
+
+.peggboard > footer ul {
+    margin:0 5px;
+    padding:0;
+    float:right;
+    list-style-type:none;
+}
+
+.peggboard > footer li {
+    float:left;
+}
+
+.peggboard > footer a {
+    margin:27px 0 0 20px;
+    font-size:14px;
+    color:#5f3817;
+    opacity:.9;
+    text-decoration:none;
+    letter-spacing:1px;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+}
+
+.peggboard > footer a:hover {
+    color:#fdf0db;
+}
