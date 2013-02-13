@@ -285,6 +285,52 @@ TEXT POST
     display: block;
 }
 
+/****************************
+New Ribbon Overlay
+*****************************/
+
+.new-ribbon {
+    position: absolute;
+    top: 90px;
+    left: 300px;
+    z-index: 50;
+}
+
+.new-ribbon2 {
+    position: absolute;
+    top: 271px;
+    left: 661px;
+    z-index: 50;
+}
+
+.audio-swap {
+    display: block;
+    width: 133px;
+    height: 133px;
+    background: url(../img/album-cover.jpg);
+    -ms-transition:.2s;
+    -moz-transition:.2s;
+    -webkit-transition:.2s;
+}
+
+.audio-swap:hover {
+    background: url(../img/album-cover-active.jpg);
+}
+
+.video-swap {
+    display: block;
+    width: 313px;
+    height: 133px;
+    background: url(../img/video-post.jpg);
+    -ms-transition:.2s;
+    -moz-transition:.2s;
+    -webkit-transition:.2s;
+}
+
+.video-swap:hover {
+    background: url(../img/video-post-active.jpg);
+}
+
 
 /*
     Each step is 36px difference (board-hole.png is 36px wide)
