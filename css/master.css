@@ -97,10 +97,6 @@ header > a:active {
     margin:1px 14px 0 1px;
 }
 
-h1 {
-	float:left;
-	margin:0;
-}
 
 h1 a {
     display:block;
@@ -195,6 +191,16 @@ article > div {
 	line-height:0px;
     position:relative;
 }
+
+article:hover > div {
+    -webkit-box-shadow:0 0 8px 1px rgba(255, 241, 220, 0.6);
+    -moz-box-shadow:0 0 8px 1px rgba(255, 241, 220, 0.6);
+    box-shadow:0 0 8px 1px rgba(255, 241, 220, 0.6);
+}
+
+
+
+
 
 /****************************
 QUOTE POST

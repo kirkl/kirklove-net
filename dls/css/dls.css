@@ -1,0 +1,152 @@
+/****************************
+FONT NAMES
+*****************************/
+
+/*FONT FAMILIES:
+font-family:'AmericanTypwrterITCW01- 731025';
+font-family:'AmericanTypwrterITCW01- 731031';
+font-family:'AmericanTypwrterITCW01- 731010';
+font-family:'Proxima N W01 Thin Reg';
+font-family:'Proxima N W01 Light';
+font-family:'Proxima N W01 Reg';
+font-family:'Proxima N W01 Xbold';
+font-family:'Proxima N W01 Smbd';
+font-family:'Proxima N W01 Bold';
+font-family:'Proxima N W01 Black';
+*/
+
+body {
+    background: #FFFDF8;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.heading {
+    display: block;
+    width: 700px;
+    height: 90px;
+    position: relative;
+}
+
+h1 a {
+    display: block;
+    float: left;
+    margin: 30px 15px 0 39px;
+}
+
+h1 a:active {
+    margin: 31px 14px 0 40px;
+}
+
+h2 a {
+    display: block;
+    width: 118px;
+    height: 24px;
+    background: transparent url(../img/peggsite-type-logo.png) no-repeat;
+    margin: 37px 5px 0 0;
+    text-decoration: none;
+    text-indent: -999px;
+    float: left;
+}
+
+h2 a:active {
+   margin: 37px 5px 0 0;
+}
+
+.back {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #5F3817;
+    text-decoration: none;
+    float: right;
+    margin: 41px 40px 0 0;
+    padding-left: 29px;
+    background: transparent url(http://kirklove.net/dls/img/brown-triangle.png) no-repeat 0 50%;
+}
+
+.back:hover {
+    background-image:url(http://kirklove.net/dls/img/orange-triangle.png);
+}
+
+.post {
+    margin: 20px auto;
+    width: 620px;
+    border: 1px solid #d6934e;
+    border-radius: 5px;
+    -webkit-box-shadow:0 10px 12px -10px rgba(95, 56, 23, 0.5);
+    -moz-box-shadow:0 10px 12px -10px rgba(95, 56, 23, 0.5);
+    box-shadow:0 10px 12px -10px rgba(95, 56, 23, 0.5);
+}
+
+.post > div {
+    border: 20px solid #fdf0db;
+    background: #FFF;
+    line-height: 0px;
+    border-radius: 5px;
+}
+
+footer {
+    width: 700px;
+    height: 100px;
+}
+
+time {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #5F3817;
+    margin: 25px 15px 0 39px;
+    float: left;
+    display: block;
+}
+
+time span {
+    color: #EE642D;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+footer ul {
+    margin: 25px 40px;
+    padding: 0;
+    float: right;
+    list-style-type: none;
+}
+
+footer li {
+    float: left;
+    padding-left: 20px;
+}
+
+footer li a {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #5F3817;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    color: #EE642D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
