@@ -15,6 +15,12 @@ font-family:'Proxima N W01 Bold';
 font-family:'Proxima N W01 Black';
 */
 
+
+/****************************
+PAGE FORMATTING
+*****************************/
+
+
 body {
     background: #FFFDF8;
 }
@@ -72,6 +78,12 @@ h2 a:active {
     background-image:url(http://kirklove.net/dls/img/orange-triangle.png);
 }
 
+
+
+/****************************
+IMAGE POST FORMATTING
+*****************************/
+
 .post {
     margin: 20px auto;
     width: 620px;
@@ -88,6 +100,56 @@ h2 a:active {
     line-height: 0px;
     border-radius: 5px;
 }
+
+
+
+/****************************
+TEXT POST FORMATTING
+*****************************/
+
+.text-box {
+    margin: 20px auto;
+    width: 620px;
+    border: 1px solid #d6934e;
+    border-radius: 5px;
+    -webkit-box-shadow:0 10px 12px -10px rgba(95, 56, 23, 0.5);
+    -moz-box-shadow:0 10px 12px -10px rgba(95, 56, 23, 0.5);
+    box-shadow:0 10px 12px -10px rgba(95, 56, 23, 0.5);
+}
+
+.text-box > div {
+    border: 20px solid #fdf0db;
+    background: #FFF;
+    line-height: 0px;
+    border-radius: 5px;
+}
+
+.text-content {
+    height: 400px;
+    display: block;
+    padding: 30px 50px;
+}
+
+.text-content h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #5F3817;
+    padding-bottom: 20px;
+}
+
+.text-content p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    color: #555;
+}
+
+
+
+/****************************
+FOOTER
+*****************************/
+
 
 footer {
     width: 700px;

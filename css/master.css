@@ -192,7 +192,7 @@ article > div {
     position:relative;
 }
 
-article:hover > div {
+article:hover {
     -webkit-box-shadow:0 0 8px 1px rgba(255, 241, 220, 0.6);
     -moz-box-shadow:0 0 8px 1px rgba(255, 241, 220, 0.6);
     box-shadow:0 0 8px 1px rgba(255, 241, 220, 0.6);
@@ -293,8 +293,8 @@ TEXT POST
 }
 
 .text-post-main {
-    width: 403px;
-    height: 474px;
+    width: 330px;
+    height: 405px;
     padding: 0 25px 20px 30px;
 }
 
@@ -305,7 +305,7 @@ TEXT POST
     color: #555;
 }
 
-.text-headline-main {
+.text-headline-main a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: bold;
@@ -313,6 +313,12 @@ TEXT POST
     margin: 35px 0 20px 0;
     display: block;
 }
+
+.text-headline-main a:hover {
+    color: #EE642D;
+}
+
+
 
 /****************************
 New Ribbon Overlay
