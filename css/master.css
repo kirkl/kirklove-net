@@ -185,6 +185,15 @@ article {
     box-shadow:0 10px 12px -10px rgba(95, 56, 23, 0.5);
 }
 
+.button {
+    border: none;
+    box-shadow: none;
+}
+
+.button:hover {
+    box-shadow: none;
+}
+
 article > div {
     border:10px solid #fdf0db;
     background:#FFF;
