@@ -125,7 +125,6 @@ TEXT POST FORMATTING
 }
 
 .text-content {
-    height: 400px;
     display: block;
     padding: 30px 50px;
 }
