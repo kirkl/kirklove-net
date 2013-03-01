@@ -274,6 +274,7 @@ TEXT POST
 .text-post-main {
     width: 260px;
     height: 581px;
+    overflow: auto;
     padding: 0 25px 20px 30px;
 }
 
@@ -526,4 +527,40 @@ time span {
 
 .peggboard > footer a:hover {
     color:#fdf0db;
+}
+
+/****************************
+ABOUT & LINKS PAGE STYLING
+*****************************/
+
+
+
+.text-post {
+    width: 480px;
+    padding: 25px 44px 20px 42px;
+}
+
+.text-headline {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #5F3817;
+    margin: 20px 0 33px 0;
+    display: block;
+}
+
+.text-post > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #555;
+}
+
+.text-post > a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+    padding: 25px 0 0 0;
+    display: block;
 }
