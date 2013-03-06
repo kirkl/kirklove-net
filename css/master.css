@@ -219,7 +219,7 @@ QUOTE POST
 article blockquote {
     font-family:'AmericanTypwrterITCW01- 731031';
     font-size:11px;
-	width:175px; /* We probably need a few different specific size quotes (small/med/big). Or we could do another grid solution like pegg-w6 (width) / pegg-h4 (height) */
+	width:140px; /* We probably need a few different specific size quotes (small/med/big). Or we could do another grid solution like pegg-w6 (width) / pegg-h4 (height) */
     line-height:16px;
     color:#333;
 	margin:0;
