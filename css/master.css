@@ -272,9 +272,8 @@ TEXT POST
 *****************************/
 
 .text-post-main {
-    width: 260px;
+    width: 475px;
     height: 581px;
-    overflow: auto;
     padding: 0 25px 20px 30px;
 }
 
@@ -295,7 +294,7 @@ TEXT POST
 .text-post-main > p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
-    line-height: 17px;
+    line-height: 20px;
     color: #555;
 }
 
@@ -324,11 +323,11 @@ New Ribbon Overlay
 *****************************/
 
 article.new:before {
-    content: url(../img/new-ribbon.png);
-    width: 30px;
-    height: 42px;
-    right: 30px;
-    top: -2px;
+    content: url(../img/n.png);
+    width: 20px;
+    height: 20px;
+    right: 0px;
+    top: 0px;
     position: absolute;
     z-index: 20;
 }
