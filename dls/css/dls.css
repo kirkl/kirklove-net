@@ -136,11 +136,15 @@ TEXT POST FORMATTING
     padding-bottom: 20px;
 }
 
-.text-content p {
+.text-content p, li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     line-height: 20px;
     color: #555;
+}
+
+.text-content ol, ul {
+    font-style: italic;
 }
 
 
