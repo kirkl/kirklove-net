@@ -176,7 +176,7 @@ time span {
 }
 
 footer ul {
-    margin: 25px 40px;
+    margin: 25px 40px 0 0;
     padding: 0;
     float: right;
     list-style-type: none;
